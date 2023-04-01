@@ -2,7 +2,6 @@
 
 This is a Bash script called `stocktool.sh` that allows users to track stock prices over time and perform a stock trading simulation. The script was developed by Will Kibbe, Ishaan Singh, and Weifeng Guo on March 17, 2023.
 
-`cleanfile.sh` was written by Michele Samorani.
 
 ## Features
 
