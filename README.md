@@ -12,6 +12,7 @@ The script has two main features:
 ## Dependencies
 
 This script requires the `ticker.sh` script to fetch stock prices. You can download it from [https://github.com/pstadler/ticker.sh](https://github.com/pstadler/ticker.sh).
+This script also requires the `cleanfile.sh` script. This script is included in this project.
 
 ## Setup
 
@@ -19,7 +20,8 @@ Before running the `stocktool.sh` script, follow these steps:
 
 1. Download the `ticker.sh` script from [https://github.com/pstadler/ticker.sh](https://github.com/pstadler/ticker.sh).
 2. Make sure the `ticker.sh` script is executable by running `chmod +x ticker.sh`.
-3. Replace the placeholder `PATH_TO_TICKER_SCRIPT` in the `stocktool.sh` script with the actual path to the `ticker.sh` script you downloaded.
+3. Replace the placeholder `PATH_TO_TICKER_SCRIPT` in the `stocktool.sh` script with the actual path to the `ticker.sh` script you downloaded. In addition, you may have to change the file path for `cleanfile.sh`.
+4. Make sure the `cleanfile.sh` script is executable by running `chmod +x cleanfile.sh`.
 
 Example:
 
