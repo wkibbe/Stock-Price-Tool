@@ -28,5 +28,3 @@ tickerdata=$(PATH_TO_TICKER_SCRIPT $stock)
 
 with the correct path information for ticker:
 tickerdata=$(path/to/your/ticker.sh $stock)
-
-Additionally, Make sure the stocktool.sh script is executable by running chmod +x stocktool.sh.
