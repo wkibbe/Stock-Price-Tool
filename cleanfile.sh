@@ -1,4 +1,4 @@
-#author of this shell program: Michele Samorani
+#author of this shell program: unknown
 shopt -s extglob # Enable Bash Extended Globbing expressions
 IFS=
 while read -r line || [[ "$line" ]]; do
